@@ -35,9 +35,9 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  s = createGraphics(windowWidth, windowHeight);
-  c = createGraphics(windowWidth, windowHeight);
+  createCanvas(window.innerWidth, window.innerHeight);
+  s = createGraphics(window.innerWidth, window.innerHeight);
+  c = createGraphics(window.innerWidth, window.innerHeight);
   inp = createInput();
 }
 function mousePressed() {
