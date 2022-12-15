@@ -1,0 +1,11 @@
+html, body {
+  position:fixed;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  overscroll-behavior:none;
+  overflow:none;
+  display: block;
+}
